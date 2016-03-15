@@ -1,0 +1,231 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#ff2e2d2e"
+    android:orientation="vertical">
+
+    <TextView android:text="Menu"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        />
+
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="5"
+       android:padding="10dp"
+       android:orientation="horizontal"
+       >
+
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:translationZ="2dp"
+           card_view:cardUseCompatPadding="true"
+
+           card_view:cardCornerRadius="7dp"
+           card_view:cardElevation="2dp"
+           >
+
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:background="#fff"
+       android:orientation="vertical"
+       android:id="@+id/ll_createclient"
+       >
+
+       <ImageView
+           android:layout_width="fill_parent"
+           android:layout_height="0dp"
+           android:layout_weight="3"
+           android:padding="30dp"
+           android:src="@drawable/createclient"
+           />
+
+       <TextView android:text="Create Client"
+           android:layout_width="fill_parent"
+           android:layout_height="0dp"
+           android:fontFamily="sans-serif-light"
+           android:gravity="center"
+           android:background="#e83f3f"
+           android:textSize="23sp"
+           android:textColor="#fff"
+           android:layout_weight="1"
+           />
+
+   </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           android:layout_width="0dp"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="fill_parent"
+           android:layout_weight="1"
+           android:translationZ="2dp"
+           card_view:cardUseCompatPadding="true"
+
+           card_view:cardCornerRadius="7dp"
+           card_view:cardElevation="2dp"
+           >
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:background="#fff"
+               android:orientation="vertical"
+               android:id="@+id/ll_viewclient"
+               >
+
+               <ImageView
+                   android:layout_width="fill_parent"
+                   android:layout_height="0dp"
+                   android:layout_weight="3"
+                   android:padding="30dp"
+                   android:src="@drawable/clients"
+                   />
+
+               <TextView android:text="Client Details"
+                   android:layout_width="fill_parent"
+                   android:layout_height="0dp"
+                   android:fontFamily="sans-serif-light"
+                   android:gravity="center"
+                   android:background="#e83f3f"
+                   android:textSize="23sp"
+                   android:textColor="#fff"
+                   android:layout_weight="1"
+                   />
+
+           </LinearLayout>
+
+       </android.support.v7.widget.CardView>
+
+
+
+
+   </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+
+            card_view:cardCornerRadius="7dp"
+            card_view:cardElevation="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:id="@+id/ll_viewownprofile"
+                >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:padding="30dp"
+                    android:src="@drawable/ownprofile"
+                    />
+
+                <TextView android:text="Own Profile"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:background="#e83f3f"
+                    android:textSize="23sp"
+                    android:textColor="#fff"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="0dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:translationZ="2dp"
+            card_view:cardUseCompatPadding="true"
+
+            card_view:cardCornerRadius="7dp"
+            card_view:cardElevation="2dp"
+            >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="#fff"
+                android:orientation="vertical"
+                android:id="@+id/ll_aboutupscale"
+                >
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="3"
+                    android:padding="30dp"
+                    android:src="@drawable/upscale"
+                    />
+
+                <TextView android:text="About Upscale"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0dp"
+                    android:fontFamily="sans-serif-light"
+                    android:gravity="center"
+                    android:background="#e83f3f"
+                    android:textSize="23sp"
+                    android:textColor="#fff"
+                    android:layout_weight="1"
+                    />
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.codev.assignment1.OwnProfileActivity">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+        android:text="User Profile"
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical"
+        android:background="#ff2e2d2e"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.8"
+            android:background="@drawable/userprofile11"
+            android:text="Name"
+            android:textColor="#fff"
+            android:textSize="60sp"
+            android:id="@+id/user_name"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="20dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="0dp" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/user_id"
+                android:textColor="#fff"
+
+                android:text="User Id :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/office_id"
+                android:textColor="#fff"
+
+                android:textSize="17sp"
+                android:text="User Id :"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/office_name"
+                android:textSize="17sp"
+                android:textColor="#fff"
+
+                android:text="User Id :"
+                android:gravity="center"
+                />
+
+
+            </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

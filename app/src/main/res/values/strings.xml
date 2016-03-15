@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_urlsettings">URLSettingsActivity</string>
+    <string name="title_activity_about_upscale">AboutUpscale</string>
+    <string name="title_activity_own_profile">OwnProfileActivity</string>
+    <string name="title_activity_view_single_client">ViewSingleClientActivity</string>
+    <string name="title_activity_create_client">CreateClientActivity</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_activity_delete_client">DeleteClientActivity</string>
+    <string name="title_activity_client_list">ClientListActivity</string>
+</resources>

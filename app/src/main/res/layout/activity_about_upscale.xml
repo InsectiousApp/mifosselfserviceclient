@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/abtupscale1"
+    tools:context="com.example.codev.assignment1.URLSettingsActivity">
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+
+
+        <TextView android:text="About Upscale"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:fontFamily="sans-serif-light"
+            android:gravity="center"
+            android:background="#e83f3f"
+            android:textSize="23sp"
+            android:textColor="#fff"
+            android:layout_weight="0.8"
+            />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+
+            android:gravity="center"
+
+            android:padding="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:orientation="vertical"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1.5"
+                android:text="We conceive Ideas in Technology and facilitate Development and Successful birth of the Innovation to provide services that serve People in all spheres, from their Backyards, Markets, Healthcare, and Local Authorities to Defense Research of information We support open and massive exchange of information and strive in our efforts with continuous research on fields like BIG DATA and Artificial Intelligence. We strive to find and devise solutions through technology for the next big puzzle and in the process identify puzzles existing in our everyday lives, waiting to be solved.
+"
+                android:textColor="#ff2e2d2e"
+                android:lineSpacingExtra="3dp"
+                android:fontFamily="sans-serif-light"
+                android:gravity="center"
+                android:paddingRight="35dp"
+                android:paddingLeft="10dp"
+                android:textSize="17sp"
+
+                />
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

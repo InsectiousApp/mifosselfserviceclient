@@ -1,0 +1,220 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff2e2d2e"
+
+    tools:context="com.example.codev.assignment1.ViewSingleClientActivity">
+
+    <TextView android:text="Create New Client" android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:text="Name :"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittextbackground"
+            android:hint="Enter name "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ff2e2d2e"
+
+            android:id="@+id/et_client_new_name"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:text="Last Name :"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittextbackground"
+            android:hint="Enter last name "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ff2e2d2e"
+
+            android:id="@+id/et_client_new_mobileno"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="#fff"
+            android:fontFamily="sans-serif-light"
+            android:text="Father's Name :"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittextbackground"
+            android:hint="Enter father's name "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ff2e2d2e"
+
+            android:id="@+id/et_client_new_fathername"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+
+            android:gravity="center"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+
+
+                android:layout_weight="0.2"
+
+                android:gravity="center"
+                />
+
+            <CheckBox
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:id="@+id/chb_agree"
+
+               android:gravity="center"
+                />
+
+            <TextView
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+
+                android:text="I agree to Upscale Term of service and privacy policy"
+                android:layout_weight="6"
+
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.4"
+
+            android:gravity="center"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_register_new_client"
+            android:layout_height="50dp"
+
+            android:layout_width="200dp"
+
+
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            android:gravity="center"
+            fancy:fb_text="Register"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+
+            android:gravity="center"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

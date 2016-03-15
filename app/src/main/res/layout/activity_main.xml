@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"  tools:context=".MainActivity"
+    android:background="#ff515254"
+    android:orientation="vertical"
+    >
+
+
+
+    <TextView android:text="Create Account"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:background="#e83f3f"
+        android:textColor="#fff"
+        android:layout_weight="1"
+        />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/splashemployeewhite"
+        android:padding="15dp"
+        android:layout_weight="2"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/roundedcorner2"
+        android:layout_weight="6"
+       android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        ></LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        />
+
+
+</LinearLayout>

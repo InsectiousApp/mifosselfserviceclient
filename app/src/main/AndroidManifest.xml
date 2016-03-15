@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.codev.assignment1" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/appicon2"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.NoActionBar" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".URLSettingsActivity"
+            android:label="@string/title_activity_urlsettings" >
+        </activity>
+        <activity
+            android:name=".AboutUpscale"
+            android:label="@string/title_activity_about_upscale" >
+        </activity>
+        <activity
+            android:name=".OwnProfileActivity"
+            android:label="@string/title_activity_own_profile" >
+        </activity>
+        <activity
+            android:name=".ViewSingleClientActivity"
+            android:label="@string/title_activity_view_single_client" >
+        </activity>
+        <activity
+            android:name=".CreateClientActivity"
+            android:label="@string/title_activity_create_client" >
+        </activity>
+        <activity
+            android:name=".ClientActivity"
+            android:label="@string/title_activity_client" >
+        </activity>
+        <activity
+            android:name=".DeleteClientActivity"
+            android:label="@string/title_activity_delete_client" >
+        </activity>
+        <activity
+            android:name=".ClientListActivity"
+            android:label="@string/title_activity_client_list" >
+        </activity>
+    </application>
+
+</manifest>

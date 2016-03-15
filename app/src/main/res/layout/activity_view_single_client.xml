@@ -1,0 +1,287 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff2e2d2e"
+    tools:context="com.example.codev.assignment1.ViewSingleClientActivity">
+
+    <TextView android:text="Details of Client" android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        >
+
+        <EditText
+            android:layout_height="fill_parent"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:paddingLeft="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittextbackground"
+            android:hint="Enter the client id "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ff2e2d2e"
+            android:inputType="number"
+            android:id="@+id/et_client_id"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_search_single_client"
+            android:layout_width="0dp"
+
+            android:layout_height="fill_parent"
+
+            android:layout_weight="1"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            android:gravity="center"
+            fancy:fb_text="Search"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        >
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Display Name :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="First Name :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Last Name :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Account No :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="External Id :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Office Id :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Office Name :"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:textColor="#fff"
+
+                android:text="Submitted By :"
+                android:textSize="17sp"
+                android:gravity="center"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_displayname"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_firstname"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_lastname"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_accountnumber"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_externalid"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_officeid"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_officename"
+                android:textColor="#fff"
+
+                android:fontFamily="sans-serif-light"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:id="@+id/client_submittedby"
+                android:textColor="#fff"
+                android:fontFamily="sans-serif-light"
+                android:visibility="gone"
+                android:textSize="17sp"
+                android:gravity="center"
+                />
+
+
+
+        </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+   <TextView
+       android:layout_width="fill_parent"
+       android:layout_height="0dp"
+       android:layout_weight="0.3"
+       />
+
+</LinearLayout>

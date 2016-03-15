@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff2e2d2e"
+    tools:context="com.example.codev.assignment1.ViewSingleClientActivity">
+
+    <TextView android:text="Delete A Client" android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/deleteicon1"
+            />
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="15dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="@drawable/edittextbackground"
+            android:hint="Enter the client id "
+            android:fontFamily="sans-serif-light"
+            android:textColor="#ff2e2d2e"
+            android:inputType="number"
+            android:id="@+id/et_client_delete"
+            android:textColorHint="#fff"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_deleteclientwithid"
+            android:layout_height="0dp"
+
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="5dp"
+            android:gravity="center"
+            fancy:fb_text="Delete client"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

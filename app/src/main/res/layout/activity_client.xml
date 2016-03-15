@@ -1,0 +1,116 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff2e2d2e"
+    tools:context="com.example.codev.assignment1.ViewSingleClientActivity">
+
+    <TextView android:text="Details of Client" android:layout_width="fill_parent"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center"
+
+        android:background="#e83f3f"
+        android:textSize="23sp"
+        android:textColor="#fff"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:orientation="vertical"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_clientlist"
+            android:layout_height="0dp"
+
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="5dp"
+            android:gravity="center"
+            fancy:fb_text="Client List"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_singleclient"
+            android:layout_height="0dp"
+
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="5dp"
+            android:gravity="center"
+            fancy:fb_text="Search single client"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btn_deleteclient"
+            android:layout_height="0dp"
+
+            android:layout_width="fill_parent"
+
+            android:layout_weight="1"
+            fancy:fb_borderColor="#FFFFFF"
+            fancy:fb_borderWidth="0dp"
+            fancy:fb_defaultColor="#e83f3f"
+            fancy:fb_focusColor="#80e83f3f"
+            android:fontFamily="sans-serif-light"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="5dp"
+            android:gravity="center"
+            fancy:fb_text="Delete a client"
+            fancy:fb_textColor="#FFFFFF"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
